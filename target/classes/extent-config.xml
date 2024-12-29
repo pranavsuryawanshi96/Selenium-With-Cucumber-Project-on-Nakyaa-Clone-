@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extentreports>
+    <configuration>
+        <!-- Report Theme -->
+        <!-- Options: standard, dark -->
+        <theme>dark</theme>
+
+        <!-- Document Encoding -->
+        <!-- Defaults to UTF-8 -->
+        <encoding>UTF-8</encoding>
+
+        <!-- Protocol for scripts and stylesheets -->
+        <!-- Defaults to https -->
+        <protocol>https</protocol>
+
+        <!-- Title of the Document -->
+        <documentTitle>Nakyaa Cucumber Framework Report </documentTitle>
+
+        <!-- Report Name displayed at top-nav -->
+        <reportName> Cucumber Framework Test Report </reportName>
+
+        <!-- Global Date Format Override -->
+        <!-- Defaults to yyyy-MM-dd -->
+        <dateFormat>yyyy-MM-dd</dateFormat>
+
+        <!-- Global Time Format Override -->
+        <!-- Defaults to HH:mm:ss -->
+        <timeFormat>HH:mm:ss</timeFormat>
+
+        <!-- Custom JavaScript -->
+        <scripts>
+            <![CDATA[
+            $(document).ready(function() {
+                console.log("Custom script executed.");
+            });
+            ]]>
+        </scripts>
+
+        <!-- Custom Styles -->
+        <styles>
+            <![CDATA[
+            body {
+                font-family: Arial, sans-serif;
+            }
+            ]]>
+        </styles>
+    </configuration>
+</extentreports>
