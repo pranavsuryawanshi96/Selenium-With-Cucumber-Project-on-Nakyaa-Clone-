@@ -27,10 +27,23 @@ Since this project is about testing, the Nakyaa Clone website is used as the tes
    - **Selenium**: For automating browser interactions for web applications.  
    - **Java**: Used for writing test scripts in a clean and reusable manner.  
    - **Cucumber**: For behavior-driven development (BDD) and writing human-readable test scenarios.  
-   - **JUnit**: For organizing and running tests.  
+   - **TestNG**: For managing test execution and reporting. 
    - **Maven**: For managing dependencies and building the project.  
 
 ---
+
+## **Design Decisions or Assumptions**  
+
+### **Design Pattern**:  
+The project follows the **Page Object Model (POM)** design pattern to ensure scalability, modularity, and maintainability of test scripts. This approach separates the page-specific actions (like clicking buttons or entering text) from the test scripts, making the code more reusable, easier to maintain, and scalable as the application grows.
+
+---
+
+## **Credentials**  
+For this project, no special credentials are required to access the Nakyaa Clone website (demo environment used for testing purposes).
+
+## **APIs Used**  
+This project focuses on UI automation, and does not directly interact with any APIs.
 
 ## **Directory Structure**  
 CucumberNakyaaProject/  
